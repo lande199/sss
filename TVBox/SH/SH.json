@@ -1,0 +1,49 @@
+/*
+多仓配置拓展，以仓为单位,百分百兼容其他多仓TVBOX软件。
+
+
+壳子弹幕配置：
+danma : true 开 false 关。 是否使用壳子弹幕，不依赖jar提供的弹幕模式。
+danma_colors :颜色配置。支持 argb(带透明度#80FF0000)、 rgb(常规#FF0000) 。 随机读取，可通过添加多个相同色值实现权重，比如2个红色 1个黄色 红色出现的概率即66.666%，以此同理   
+壳子弹幕开后，加载失败后会自动重试至线路jar的弹幕，无需额外操作。
+弹幕配置调整后，需app手动刷新仓库配置。
+
+壳子仓库更新通知配置：
+notifyUpdate : true 开 false 关。 当多仓任意配置改变时（比如新增、删除、更新仓等操作），是否通知仓库用户更新让用户及时更新该配置。 推荐为 true
+具体显示为：首页打开吐司提示和设置仓库小房子上小红点标识。 
+
+
+欢迎各位大佬配置体验。仅限本群内使用，请勿传播。
+*/
+
+{
+	"storeHouse": [
+			{
+			"sourceName": "✨阳阳👀滴❤️‍🔥",
+			"sourceUrl": "https://lande199@163.com:aqwmy27etryju4gs@dav.jianguoyun.com/dav/x/TVBox/lib/本地仓库3.json",
+			"parse": "{\"logo\": \"./logo/思瀚.gif\",\"danma\": true,\"danma_colors\": [\"#80FF0000\",\"#80FF7F00\",\"#80FFFF00\",\"#00FF00\",\"#FFB6C1\",\"#DB7093\",\"#80FFF0F5\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#80EE82EE\",\"#80F8F8FF\",\"#E6E6FA\",\"#D8BFD8\",\"#BA55D3\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#80F0F8FF\",\"#87CEFA\",\"#8087CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#F0FFF0\",\"#ADFF2F\",\"#FAFAD2\",\"#FFFFE0\",\"#FFFF00\",\"#FFF8DC\",\"#FFEFD5\",\"#FF4500\",\"#80FF0000\",\"#80DCDCDC\",\"#A9A9A9\",\"#FA8072\"]}"    
+		},
+		{
+			"sourceName": "✨思瀚👀滴❤️‍🔥",
+			"sourceUrl": "./思瀚仓.json",
+			"parse": "{\"logo\": \"./logo/思瀚.gif\",\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\",\"#FFB6C1\",\"#DB7093\",\"#FFF0F5\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#EE82EE\",\"#F8F8FF\",\"#E6E6FA\",\"#D8BFD8\",\"#BA55D3\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#F0F8FF\",\"#87CEFA\",\"#87CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#F0FFF0\",\"#ADFF2F\",\"#FAFAD2\",\"#FFFFE0\",\"#FFFF00\",\"#FFF8DC\",\"#FFEFD5\",\"#FF4500\",\"#FF0000\",\"#DCDCDC\",\"#A9A9A9\",\"#FA8072\"]}"    
+		},
+		{
+			"sourceName": "✨无忧👀本地包❤️‍🔥",
+			"sourceUrl": "http://127.0.0.1:9978/file/TVBox/lib/本地仓库.json",
+			"parse": "{\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\",\"#FFB6C1\",\"#DB7093\",\"#FFF0F5\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#EE82EE\",\"#F8F8FF\",\"#E6E6FA\",\"#D8BFD8\",\"#BA55D3\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#F0F8FF\",\"#87CEFA\",\"#87CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#F0FFF0\",\"#ADFF2F\",\"#FAFAD2\",\"#FFFFE0\",\"#FFFF00\",\"#FFF8DC\",\"#FFEFD5\",\"#FF4500\",\"#FF0000\",\"#DCDCDC\",\"#A9A9A9\",\"#FA8072\"]}"    
+		},
+		{
+			"sourceName": "✨思瀚👀zx❤️‍🔥",
+			"sourceUrl": "./在线仓库.json",
+			"parse": "{\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\",\"#FFB6C1\",\"#DB7093\",\"#FFF0F5\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#EE82EE\",\"#F8F8FF\",\"#E6E6FA\",\"#D8BFD8\",\"#BA55D3\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#F0F8FF\",\"#87CEFA\",\"#87CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#F0FFF0\",\"#ADFF2F\",\"#FAFAD2\",\"#FFFFE0\",\"#FFFF00\",\"#FFF8DC\",\"#FFEFD5\",\"#FF4500\",\"#FF0000\",\"#DCDCDC\",\"#A9A9A9\",\"#FA8072\"]}"
+		},
+		{
+			"sourceName": "✨云星👀zx❤️‍🔥",
+			"sourceUrl": "http://itvbox.cc/可视仓库/在线仓",
+			"parse": "{\"danma\": true,\"danma_colors\": [\"#FF0000\",\"#FF7F00\",\"#FFFF00\",\"#00FF00\",\"#FFB6C1\",\"#DB7093\",\"#FFF0F5\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#EE82EE\",\"#F8F8FF\",\"#E6E6FA\",\"#D8BFD8\",\"#BA55D3\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#F0F8FF\",\"#87CEFA\",\"#87CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#F0FFF0\",\"#ADFF2F\",\"#FAFAD2\",\"#FFFFE0\",\"#FFFF00\",\"#FFF8DC\",\"#FFEFD5\",\"#FF4500\",\"#FF0000\",\"#DCDCDC\",\"#A9A9A9\",\"#FA8072\"]}"
+		}
+	],
+	 "notifyUpdate": true,
+	 "update": "2025-08-20 21:05"
+}
