@@ -1,7 +1,7 @@
 {"urls": [
 {"url": "https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/SH/%E6%80%9D%E7%80%9A%E4%B8%93%E7%94%A8.json","name":"推荐高清git"},
 {"url": "https://lande199@163.com:aqwmy27etryju4gs@dav.jianguoyun.com/dav/x/TVBox/SH/思瀚专用.json","name":"推荐高清坚果"},
-{"url": "https://lande199@163.com:aqwmy27etryju4gs@dav.jianguoyun.com/dav/x/TVBox/SH/jsm.json","name":"pg线路"},
+{"url": "https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/SH/jsm.json","name":"pg线路"},
 {"url": "file://TVBox/lib/无忧.json","name":"无忧总线路"},
 {"url": "file://TVBox/lib/无忧TV.json","name":"无忧普通线路"},
 {"url": "file://TVBox/lib/py.txt","name":"无忧Py线路"},
@@ -71,5 +71,6 @@
 {"url": "https://gitee.com/liu_wuyou/box/raw/master/jk/%E6%9C%AC%E5%9C%B0%E5%8C%85%E4%B8%8B%E8%BD%BD%E6%9B%B4%E6%96%B0.js","name": "⚜️本地更新线路"}
 ]
 }
+
 
 
