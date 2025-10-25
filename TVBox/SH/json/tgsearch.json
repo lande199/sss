@@ -1,0 +1,83 @@
+{
+    "recommend": "名称",
+    "class": [
+        {
+            "type_id": "CHANNEL:yggbox,yunpanall,tgsearchers,Lossless_Yinyue$$$LIST:quark,uc,ali,123",
+            "type_name": "指定搜索综合"
+        },
+        {
+            "type_id": "CHANNEL:kuakeyun,yunpanpan,Quark_0,alyp_1,NewQuark,yunpanshare,XiangxiuNB,Quark_Movies$$$LIST:quark",
+            "type_name": "指定搜索QK"
+        },
+        {
+            "type_id": "CHANNEL:yunpanuc,ucpanpan,ucquark,Oscar_4Kmovies$$$LIST:uc",
+            "type_name": "指定搜索UC"
+        },
+        {
+            "type_id": "CHANNEL:fx123pan2,zyfb123,xx123pan1,zyzhpd123,xx123pan,pan123pan$$$LIST:123,123912.com,123684.com",
+            "type_name": "指定搜索123"
+        },
+        {
+            "type_id": "CHANNEL:shareAliyun,NewAliPan,shareAliyun_Group,wpzyhj$$$LIST:ali",
+            "type_name": "指定搜索ALI"
+        },
+        {
+            "type_id": "CHANNEL:Mbox115,shares_115,guaguale1150,hao115$$$LIST:115,anxia,115cdn",
+            "type_name": "指定搜索115"
+        },
+        {
+            "type_id": "CHANNEL:yunpan139,ydypzyfx$$$LIST:139.com",
+            "type_name": "指定搜索YD"
+        },
+        {
+            "type_id": "CHANNEL:dongmanclub,AnimeNep$$$LIST:,视频|视频,video|video,mp4|mp4",
+            "type_name": "指定搜索视频"
+        },
+        {
+            "type_id": "CHANNEL:wanwansubchat$$$LIST:quark",
+            "type_name": "湾湾字幕组"
+        },
+        {
+            "type_id": "LIST:恐怖,悬疑,犯罪,喜剧",
+            "type_name": "电影"
+        },
+        {
+            "type_id": "LIST:国产剧,港剧,台剧,美剧,韩剧",
+            "type_name": "电视剧"
+        },
+        {
+            "type_id": "动漫",
+            "type_name": "动漫"
+        },
+        {
+            "type_id": "LIST:,专辑,#音乐,#无损",
+            "type_name": "音乐"
+        },
+        {
+            "type_id": "LIST:,名称,动漫,杜比,REMUX",
+            "type_name": "名称"
+        },
+        {
+            "type_id": "链接",
+            "type_name": "链接"
+        },
+        {
+            "type_id": "分享",
+            "type_name": "分享"
+        },
+        {
+            "type_id": "xunlei",
+            "type_name": "迅雷"
+        },
+        {
+            "type_id": "片名",
+            "type_name": "片名"
+        },
+        {
+            "type_id": "mp4",
+            "type_name": "MP4"
+        }
+    ],
+    "jx": 0,
+    "parse": 0
+}
