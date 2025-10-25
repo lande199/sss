@@ -20,7 +20,7 @@ notifyUpdate : true 开 false 关。 当多仓任意配置改变时（比如新�
 	"storeHouse": [
 			{
 			"sourceName": "✨阳阳👀滴❤️‍🔥",
-			"sourceUrl": "https://lande199@163.com:aqwmy27etryju4gs@dav.jianguoyun.com/dav/x/TVBox/lib/本地仓库3.json",
+			"sourceUrl": "https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/lib/%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%933.json?token=GHSAT0AAAAAADN3222O5U3BH553JQS7AOEQ2H4U3XQ",
 			"parse": "{\"logo\": \"./logo/思瀚.gif\",\"danma\": true,\"danma_colors\": [\"#80FF0000\",\"#80FF7F00\",\"#80FFFF00\",\"#00FF00\",\"#FFB6C1\",\"#DB7093\",\"#80FFF0F5\",\"#FF69B4\",\"#FF1493\",\"#FF00FF\",\"#80EE82EE\",\"#80F8F8FF\",\"#E6E6FA\",\"#D8BFD8\",\"#BA55D3\",\"#0000FF\",\"#4169E1\",\"#1E90FF\",\"#80F0F8FF\",\"#87CEFA\",\"#8087CEEB\",\"#00BFFF\",\"#B0E0E6\",\"#00FFFF\",\"#00FA9A\",\"#98FB98\",\"#00FF00\",\"#F0FFF0\",\"#ADFF2F\",\"#FAFAD2\",\"#FFFFE0\",\"#FFFF00\",\"#FFF8DC\",\"#FFEFD5\",\"#FF4500\",\"#80FF0000\",\"#80DCDCDC\",\"#A9A9A9\",\"#FA8072\"]}"    
 		},
 		{
@@ -45,5 +45,6 @@ notifyUpdate : true 开 false 关。 当多仓任意配置改变时（比如新�
 		}
 	],
 	 "notifyUpdate": true,
-	 "update": "2025-08-20 21:05"
+	 "update": "2025-10-30 21:05"
+
 }
