@@ -132,11 +132,6 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 山东齐鲁,http://39.134.144.6:8089/PLTV/88888888/224/3221226045/index.m3u8
 山东齐鲁,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000313/index.m3u8
 山东齐鲁,rtmp://livealone.iqilu.com/iqilu/qlpdhjOF03kn
-山东生活,rtmp://livealone.iqilu.com/iqilu/shpdhjOF03kn
-山东文旅,rtmp://livealone.iqilu.com/iqilu/yspdhjOF03kn
-山东综艺,rtmp://livealone.iqilu.com/iqilu/zypdhjOF03kn
-山东农科,rtmp://livealone.iqilu.com/iqilu/nkpdhjOF03kn
-山东体育,rtmp://livealone.iqilu.com/iqilu/typdhjOF03kn
 山东新闻,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000314/index.m3u8
 山东新闻,http://39.136.48.51:8089/PLTV/88888888/224/3221226077/index.m3u8
 山东新闻,http://39.136.48.52:8089/PLTV/88888888/224/3221226077/index.m3u8
@@ -178,6 +173,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 山东农科,http://39.136.48.4:8089/PLTV/88888888/224/3221226018/index.m3u8
 山东农科,http://39.136.48.29:8089/PLTV/88888888/224/3221226018/index.m3u8
 山东农科,http://39.134.144.6:8089/PLTV/88888888/224/3221226018/index.m3u8
+山东农科,rtmp://livealone.iqilu.com/iqilu/nkpdhjOF03kn
 山东少儿,http://39.136.48.19:8089/PLTV/88888888/224/3221226195/index.m3u8
 山东少儿,http://39.136.48.51:8089/PLTV/88888888/224/3221226195/index.m3u8
 山东少儿,http://39.136.48.56:8089/PLTV/88888888/224/3221226195/index.m3u8
@@ -232,9 +228,8 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 山东生活,http://39.136.48.7:8089/PLTV/88888888/224/3221225841/index.m3u8
 山东生活,http://39.134.144.6:8089/PLTV/88888888/224/3221225841/index.m3u8
 山东生活,http://39.136.48.8:8089/PLTV/88888888/224/3221225841/1.m3u8
-山东生活,http://feiyuegang.ufycb.com:808/hls/24/index.m3u8
+山东生活,rtmp://livealone.iqilu.com/iqilu/shpdhjOF03kn
 山东体育,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000315/index.m3u8
-山东体育,http://feiyuegang.ufycb.com:808/hls/26/index.m3u8
 山东体育,http://39.134.144.6:8089/PLTV/88888888/224/3221226075/index.m3u8
 山东体育,http://39.136.48.28:8089/PLTV/88888888/224/3221226075/index.m3u8
 山东体育,http://39.136.48.7:8089/PLTV/88888888/224/3221226075/index.m3u8
@@ -251,6 +246,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 山东体育,http://39.136.48.18:8089/PLTV/88888888/224/3221226075/index.m3u8
 山东体育,http://39.136.48.21:8089/PLTV/88888888/224/3221226075/index.m3u8
 山东体育,http://39.136.48.29:8089/PLTV/88888888/224/3221226075/index.m3u8
+山东体育,rtmp://livealone.iqilu.com/iqilu/typdhjOF03kn
 山东文旅,http://39.136.48.51:8089/PLTV/88888888/224/3221225802/index.m3u8
 山东文旅,http://39.136.48.52:8089/PLTV/88888888/224/3221225802/index.m3u8
 山东文旅,http://39.136.48.7:8089/PLTV/88888888/224/3221225802/index.m3u8
@@ -263,6 +259,7 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 山东文旅,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000337/index.m3u8
 山东文旅,http://39.134.144.6:8089/PLTV/88888888/224/3221225802/index.m3u8
 山东文旅,http://feiyuegang.ufycb.com:808/hls/23/index.m3u8
+山东文旅,rtmp://livealone.iqilu.com/iqilu/yspdhjOF03kn
 山东综艺,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000338/index.m3u8
 山东综艺,http://39.136.48.18:8089/PLTV/88888888/224/3221225855/index.m3u8
 山东综艺,http://39.136.48.8:8089/PLTV/88888888/224/3221225855/index.m3u8
@@ -278,7 +275,8 @@ CGTN阿语,https://0472.org/hls/cgtna.m3u8
 山东综艺,http://39.136.48.28:8089/PLTV/88888888/224/3221225855/index.m3u8
 山东综艺,http://feiyuegang.ufycb.com:808/hls/25/index.m3u8
 山东综艺,http://39.134.144.6:8089/PLTV/88888888/224/3221225855/index.m3u8
-山东国际,http://feiyuegang.ufycb.com:808/hls/30/index.m3u8
+山东综艺,rtmp://livealone.iqilu.com/iqilu/zypdhjOF03kn
+
 济南综合,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8
 济南综合,http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8
 济南综合,http://feiyuegang.ufycb.com:808/hls/21/index.m3u8
