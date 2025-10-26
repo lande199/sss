@@ -50,9 +50,9 @@
             "changeable": 0,
             "indexs": 0,
             "sideLoader": true,
-            "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/35842A0_773_wex_20251004220600232newMediaImage.png"
+            "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/35842A0_773_wex_20251004220600232newMediaImage.png;md5;47ddcda7e66c4408c7d7470b4e2be335"
         },
-        {"key": "本地更新","name": "📂本地包┃更新","type": 3,"jar":"https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/%E6%9C%AC%E5%9C%B0%E6%9B%B4%E6%96%B0.jar","api": "csp_Market","searchable": 0,"changeable": 0,"indexs": 0,"ext": "http://120.79.72.106:14001/Bd/bdgx.js"}, 
+        {"key": "本地更新","name": "📂本地包┃更新","type": 3,"jar":"https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/%E6%9C%AC%E5%9C%B0%E6%9B%B4%E6%96%B0.jar?token=GHSAT0AAAAAADN3222P2ZKLAOP6JOSACUJ42H4UH7A","api": "csp_Market","searchable": 0,"changeable": 0,"indexs": 0,"ext": "http://120.79.72.106:14001/Bd/bdgx.js"}, 
         {
             "key": "push_agent_1",
             "name": "推送|百度+UC",
@@ -118,7 +118,7 @@
             "changeable": 1,
             "timeout": 60,
             "sideLoader": true,
-            "jar": "https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/fm.jar",
+            "jar": "https://lande199@163.com:aqwmy27etryju4gs@dav.jianguoyun.com/dav/x/TVBox/jar/fm.jar",
             "ext": {
                 "Cloud-drive": "/tvfan/Cloud-drive.txt",
                 "from": "4k|auto",
@@ -1313,16 +1313,16 @@
     ],
     "lives": [
         {
-            "name": "୧⍤⃝📡思瀚智博",
+            "name": "୧⍤⃝📡在线电视",
             "type": 0,
-            "url": "./tv/思瀚智博.txt",
+            "url": "./tv/live.txt",
             "epg": "http://127.0.0.1:30000/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://down.nigx.cn/diyp2.112114.xyz/logo/{name}.png"
         },
         {
-            "name": "୧⍤⃝🐏肥羊智博",
+            "name": "୧⍤⃝🐏本地电视",
             "type": 0,
-            "url": "https://sub.ottiptv.cc/iptv.m3u",
+            "url": "http://127.0.0.1:9978/tvbox/tv/live.txt",
             "ua": "okHttp/Mod-1.0.1",
             "logo": "https://down.nigx.cn/diyp2.112114.xyz/logo/{name}.png"
         },
@@ -1935,5 +1935,4 @@
             ]
         }
     ]
-
 }
