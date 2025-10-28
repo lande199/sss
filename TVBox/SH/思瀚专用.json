@@ -54,19 +54,44 @@
         },
         {"key": "本地更新","name": "📂本地包┃更新","type": 3,"jar":"https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/%E6%9C%AC%E5%9C%B0%E6%9B%B4%E6%96%B0.jar","api": "csp_Market","searchable": 0,"changeable": 0,"indexs": 0,"ext": "http://120.79.72.106:14001/Bd/bdgx.js"}, 
         {
-            "key": "push_agent_1",
-            "name": "推送|百度+UC",
+            "key": "embys",
+            "name": "୧⍤⃝🎬┃EMBY【🌐】",
             "type": 3,
-            "api": "csp_push",
-            "flags": [
-                "pan.baidu.",
-                "pan.quark.",
-                "drive.uc."
-            ],
-            "jar": "./jar/spider.jar",
-            "changeable": 0,
-            "timeout": 30
+            "api": "csp_Embys",
+            "timeout": 30,
+            "searchable": 1,
+            "changeable": 1,
+            "searchTop": true,
+            "searchCount": 35,
+            "jar": "./jar/local.jar",
+            "ext": "./json/embys1.json"
         },
+        {
+            "key": "官采资源",
+            "name": "୧⍤⃝🐧┃官采 聚【🌐】",
+            "type": 1,
+            "api": "https://gctf.tfdh.top/api.php/provide/vod/",
+            "searchable": 1,
+            "playerType": 2,
+            "searchTop": true,
+            "sideLoader": true,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "官采",
+            "name": "୧⍤⃝🥭┃官采 影【🌐】",
+            "type": 1,
+            "api": "http://chulian.baozi66.top:99/qilin.php/provide/vod/ ",
+            "searchable": 1,
+            "playerType": 2,
+            "searchTop": true,
+            "sideLoader": true,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        
+
         {
             "key": "哔哩弹幕",
             "name": "୧⍤⃝🅱️┃哔哩 影【🌐】",
@@ -118,13 +143,56 @@
             "changeable": 1,
             "timeout": 60,
             "sideLoader": true,
-            "jar": "https://lande199@163.com:aqwmy27etryju4gs@dav.jianguoyun.com/dav/x/TVBox/jar/fm.jar",
+            "jar": "https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/fm.jar",
             "ext": {
                 "Cloud-drive": "/tvfan/Cloud-drive.txt",
                 "from": "4k|auto",
                 "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
             }
+        },{
+            "key": "Qupans",
+            "name": "୧⍤⃝🪔┃百度 盘【👑】",
+            "type": 3,
+            "api": "csp_Qupans",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jar/local.jar",
+            "ext": {}
+        },
+        {
+            "key": "PanSouTemplate",
+            "name": "୧⍤⃝💿┃聚盘 搜【👑】",
+            "type": 3,
+            "api": "csp_PanSouTemplate",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0,
+            "jar": "./jar/local.jar",
+            "ext": "./json/pansou.json"
+        },
+        {
+            "key": "panso",
+            "name": "୧⍤⃝📀┃盘搜 T4【👑】",
+            "type": 4,
+            "api": "http://tvb.9898666.xyz:25002/video/panso",
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 0,
+            "header": {
+                "token": "qbt859121210qbt"
+            }
+        },
+        {
+            "key": "Pan68",
+            "name": "୧⍤⃝🍽️┃六八 推【👑】",
+            "type": 3,
+            "api": "csp_Pan68",
+            "timeout": 30,
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./jar/local.jar",
+            "ext": "baidu,kuake,uc,189,ali,ali2"
         },
         {
             "key": "tt",
@@ -1301,6 +1369,42 @@
             "timeout": 60,
             "ext": "./lib/tokenm.json$$$./lib/thundershare.txt"
         },
+                {
+            "key": "Local",
+            "name": "୧⍤⃝📁┃本机 影【☣️】",
+            "type": 3,
+            "jar": "./jar/local.jar",
+            "api": "csp_Local",
+            "quickSearch": 1,
+            "changeable": 1,
+            "filterable": 1
+        },
+        {
+            "key": "push_agent_baidu",
+            "name": "୧⍤⃝🚲┃推送 盘【👑】",
+            "type": 3,
+            "api": "csp_Push",
+            "flags": [
+                "pan.baidu"
+            ],
+            "jar": "./jar/local.jar",
+            "changeable": 0,
+            "timeout": 30
+        },
+                        {
+            "key": "push_agent_1",
+            "name": "୧⍤⃝🚲┃推送buq盘【☢️】",
+            "type": 3,
+            "api": "csp_push",
+            "flags": [
+                "pan.baidu",
+                "pan.quark",
+                "drive.uc"
+            ],
+            "jar": "./jar/spider.jar",
+            "changeable": 0,
+            "timeout": 30
+        },
         {
             "key": "push_agent",
             "name": "୧⍤⃝🛴┃推送 盘【☣️】",
@@ -1922,6 +2026,4 @@
             ]
         }
     ]
-
 }
-
