@@ -1,0 +1,35 @@
+{
+	"url": "http://144.24.40.190:10086",
+	"search": {
+		"res": "results",
+		"src": "all"
+	},
+	"sort": {
+		"order": [
+			"channel",
+			"pan"
+		],
+		"pan": [
+			"123",
+			"baidu",
+			"uc",
+			"quark",
+			"tianyi",
+			"ali"
+		],
+		"channel": [
+			"wanou",
+			"muou",
+			"labi",
+			"erxiao",
+			"huban",
+			"zhizhen",
+			"duoduo",
+			"leijing",
+			"pianku",
+			"BaiduCloudDisk",
+			"bdwpzhpd",
+			"peccxinpd"
+		]
+	}
+}
