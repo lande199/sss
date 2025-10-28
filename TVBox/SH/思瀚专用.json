@@ -1467,6 +1467,32 @@
         }
     ],
     "parses": [
+              {
+            "name": "懒🐏🐏",
+            "type": 1,
+            "url": "http://144.24.40.190:6666/nxnx.php?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ]
+            }
+        },
         {
             "name": "M3U8",
             "url": "https://jx.m3u8.tv/jiexi/?url=",
