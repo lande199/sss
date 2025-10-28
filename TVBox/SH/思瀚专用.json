@@ -1425,6 +1425,13 @@
         {"name": "电视","type": 0,"url": "http://120.79.72.106:14001/tv/live.txt","ua": "okHttp/Mod-1.4.0.0","epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png","catchup": {"type": "append","source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"}},
 {"name": "本地电视","type": 0,"url": "http://127.0.0.1:9978/file/TVBox/tv/live.txt","ua": "okHttp/Mod-1.4.0.0","epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png","catchup": {"type": "append","source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"}},
 {"name": "肥羊","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.1.2","ua": "okHttp/Mod-1.4.0.0"},
+{
+      "name": "冰茶",
+      "type": 0,
+      "playerType": 2,
+      "url": "https://fy.188766.xyz/?url=https%3A%2F%2Flive.iill.top&mima=bingchawusifengxian&json=true",
+      "ua": "bingcha/1.1 (mianfeifenxiang) "
+    },
         {
             "name": "୧⍤⃝😻猫TV",
             "type": 0,
@@ -1562,15 +1569,31 @@
         ".*ulivetv.*",
         "missav.ws",
         "javmulu.net",
+        "raw.githubusercontent.com",
         "www.netflav.com"
     ],
+    "headers": [
+    {
+      "host": "hlsztemgsplive.miguvideo.com",
+      "header": {
+        "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+      }
+    }
+  ],
     "hosts": [
         "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
-    ],
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com","hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+    "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+    "smt.1678520.xyz=gcore.jsdelivr.net",
+    "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+    "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv"
+  ]
     "rules": [
         {
             "host": "*",
