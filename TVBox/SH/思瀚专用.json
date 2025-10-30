@@ -1395,13 +1395,13 @@
             "key": "push_agent_1",
             "name": "୧⍤⃝🚲┃推送buq盘【☢️】",
             "type": 3,
+            "jar": "./jar/spider.jar",
             "api": "csp_push",
             "flags": [
                 "pan.baidu",
                 "pan.quark",
                 "drive.uc"
             ],
-            "jar": "./jar/spider.jar",
             "changeable": 0,
             "timeout": 30
         },
@@ -2075,5 +2075,4 @@
             ]
         }
     ]
-
 }
