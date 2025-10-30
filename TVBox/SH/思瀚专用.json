@@ -1391,18 +1391,18 @@
             "changeable": 0,
             "timeout": 30
         },
-                        {
-            "key": "push_agent_1",
-            "name": "୧⍤⃝🚲┃推送buq盘【☢️】",
+        {
+            "key": "push_agent_xs",
+            "name": "୧⍤⃝🚲┃推送【☢️】",
             "type": 3,
-            "jar": "./jar/spider.jar",
-            "api": "csp_Push",
+            "api": "csp_Push", 
             "flags": [
-                "pan.quark",
-                "drive.uc"
+            "pan.quark","drive.uc"
             ],
-            "changeable": 0,
-            "timeout": 30
+            "jar": "./jar/spider.jar",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0
         },
         {
             "key": "push_agent",
