@@ -1398,7 +1398,6 @@
             "jar": "./jar/spider.jar",
             "api": "csp_push",
             "flags": [
-                "pan.baidu",
                 "pan.quark",
                 "drive.uc"
             ],
