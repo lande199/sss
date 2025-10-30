@@ -5,17 +5,18 @@
             "username": "12qq",
             "password": "1111111q",
             "name": "后海"
-        },{
-      "server": "https://emby.087344.xyz:443",
-      "username": "123",
-      "password": "",
-      "name": "启源"
-    },
+        },
         {
             "server": "https://lustfulboy.com",
             "username": "丘比特",
             "password": "YIALxn1L",
             "name": "你懂🉐6"
+        },
+        {
+      "server": "https://emby.087344.xyz:443",
+      "username": "123",
+      "password": "",
+      "name": "启源"
         }
     ]
 }
