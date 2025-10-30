@@ -1396,7 +1396,7 @@
             "name": "୧⍤⃝🚲┃推送buq盘【☢️】",
             "type": 3,
             "jar": "./jar/spider.jar",
-            "api": "csp_push",
+            "api": "csp_Push",
             "flags": [
                 "pan.quark",
                 "drive.uc"
