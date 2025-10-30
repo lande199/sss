@@ -42,17 +42,16 @@
             }
         },
         {
-            "key": "Wexokconfig",
-            "name": "🐮影视专用┃配置中心🐮",
+            "key": "本地更新",
+            "name": "📂本地包┃更新",
             "type": 3,
-            "api": "csp_WexokconfigGuard",
+            "jar": "https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/%E6%9C%AC%E5%9C%B0%E6%9B%B4%E6%96%B0.jar",
+            "api": "csp_Market",
             "searchable": 0,
             "changeable": 0,
             "indexs": 0,
-            "sideLoader": true,
-            "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/35842A0_773_wex_20251004220600232newMediaImage.png"
+            "ext": "http://120.79.72.106:14001/Bd/bdgx.js"
         },
-        {"key": "本地更新","name": "📂本地包┃更新","type": 3,"jar":"https://raw.githubusercontent.com/lande199/sss/refs/heads/main/TVBox/jar/%E6%9C%AC%E5%9C%B0%E6%9B%B4%E6%96%B0.jar","api": "csp_Market","searchable": 0,"changeable": 0,"indexs": 0,"ext": "http://120.79.72.106:14001/Bd/bdgx.js"}, 
         {
             "key": "embys",
             "name": "୧⍤⃝🎬┃EMBY【🌐】",
@@ -90,8 +89,6 @@
             "quickSearch": 1,
             "filterable": 0
         },
-        
-
         {
             "key": "哔哩弹幕",
             "name": "୧⍤⃝🅱️┃哔哩 影【🌐】",
@@ -150,7 +147,8 @@
                 "siteUrl": "https://www.wogg.net/",
                 "danMu": "弹"
             }
-        },{
+        },
+        {
             "key": "Qupans",
             "name": "୧⍤⃝🪔┃百度 盘【👑】",
             "type": 3,
@@ -305,46 +303,6 @@
             ]
         },
         {
-            "key": "WexbaidusoGuard",
-            "name": "🎠给力┃百度🎠",
-            "type": 3,
-            "api": "csp_WexbaidusoGuard",
-            "searchable": 1,
-            "changeable": 1,
-            "sideLoader": true,
-            "jar": "https://gitee.com/liu_wuyou/box/raw/master/jar/%E4%BA%8C%E5%B0%8F.jar",
-            "ext": {
-                "token": "",
-                "cookie": "",
-                "site": "",
-                "danmu": true
-            },
-            "timeout": 15
-        },
-        {
-            "key": "push_agent_Wexnullname",
-            "name": "💓无名┃4K💓",
-            "type": 3,
-            "api": "csp_WexnullnameGuard",
-            "flags": [
-                "pan.baidu.",
-                "pan.quark.",
-                "drive.uc."
-            ],
-            "searchable": 1,
-            "changeable": 1,
-            "timeout": 60,
-            "searchTop": true,
-            "sideLoader": true,
-            "jar": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/330FC0F_773_wex_20251024172028260newMediaImage.png",
-            "ext": {
-                "token": "",
-                "cookie": "",
-                "site": "",
-                "danmu": true
-            }
-        },
-        {
             "key": "FourKFox",
             "name": "4KFox|网盘|磁力",
             "type": 3,
@@ -439,6 +397,7 @@
             "timeout": 15,
             "sideLoader": true,
             "jar": "./jar/spider.jar",
+            "searchTop": true,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -1369,7 +1328,7 @@
             "timeout": 60,
             "ext": "./lib/tokenm.json$$$./lib/thundershare.txt"
         },
-                {
+        {
             "key": "Local",
             "name": "୧⍤⃝📁┃本机 影【☣️】",
             "type": 3,
@@ -1388,6 +1347,7 @@
                 "pan.baidu"
             ],
             "jar": "./jar/local.jar",
+            "sideLoader": true,
             "changeable": 0,
             "timeout": 30
         },
@@ -1395,11 +1355,13 @@
             "key": "push_agent_xs",
             "name": "୧⍤⃝🚲┃推送【☢️】",
             "type": 3,
-            "api": "csp_Push", 
+            "api": "csp_Push",
             "flags": [
-            "pan.quark","drive.uc"
+                "pan.quark",
+                "drive.uc"
             ],
             "jar": "./jar/spider.jar",
+            "sideLoader": true,
             "searchable": 0,
             "filterable": 0,
             "changeable": 0
@@ -1420,17 +1382,50 @@
             "type": 0,
             "url": "./tv/live.txt",
             "ua": "okHttp/Mod-1.4.0.0",
-            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png","catchup": {"type": "append","source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"}},
-        {"name": "电视","type": 0,"url": "http://120.79.72.106:14001/tv/live.txt","ua": "okHttp/Mod-1.4.0.0","epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png","catchup": {"type": "append","source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"}},
-{"name": "本地电视","type": 0,"url": "http://127.0.0.1:9978/file/TVBox/tv/live.txt","ua": "okHttp/Mod-1.4.0.0","epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}","logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png","catchup": {"type": "append","source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"}},
-{"name": "肥羊","type": 0,"url": "https://fy.188766.xyz/?ip=192.168.1.2","ua": "okHttp/Mod-1.4.0.0"},
-{
-      "name": "冰茶",
-      "type": 0,
-      "playerType": 2,
-      "url": "https://fy.188766.xyz/?url=https%3A%2F%2Flive.iill.top&mima=bingchawusifengxian&json=true",
-      "ua": "bingcha/1.1 (mianfeifenxiang) "
-    },
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+            "catchup": {
+                "type": "append",
+                "source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
+            }
+        },
+        {
+            "name": "电视",
+            "type": 0,
+            "url": "http://120.79.72.106:14001/tv/live.txt",
+            "ua": "okHttp/Mod-1.4.0.0",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+            "catchup": {
+                "type": "append",
+                "source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
+            }
+        },
+        {
+            "name": "本地电视",
+            "type": 0,
+            "url": "http://127.0.0.1:9978/file/TVBox/tv/live.txt",
+            "ua": "okHttp/Mod-1.4.0.0",
+            "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
+            "catchup": {
+                "type": "append",
+                "source": "?playseek=${(b)yyyyMMddHHmm}00-${(e)yyyyMMddHHmm}00"
+            }
+        },
+        {
+            "name": "肥羊",
+            "type": 0,
+            "url": "https://fy.188766.xyz/?ip=192.168.1.2",
+            "ua": "okHttp/Mod-1.4.0.0"
+        },
+        {
+            "name": "冰茶",
+            "type": 0,
+            "playerType": 2,
+            "url": "https://fy.188766.xyz/?url=https%3A%2F%2Flive.iill.top&mima=bingchawusifengxian&json=true",
+            "ua": "bingcha/1.1 (mianfeifenxiang) "
+        },
         {
             "name": "୧⍤⃝😻猫TV",
             "type": 0,
@@ -1473,7 +1468,7 @@
         }
     ],
     "parses": [
-              {
+        {
             "name": "懒🐏🐏",
             "type": 1,
             "url": "http://144.24.40.190:6666/nxnx.php?url=",
@@ -1572,27 +1567,28 @@
         "www.netflav.com"
     ],
     "headers": [
-    {
-      "host": "hlsztemgsplive.miguvideo.com",
-      "header": {
-        "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
-      }
-    }
-  ],
+        {
+            "host": "hlsztemgsplive.miguvideo.com",
+            "header": {
+                "User-Agent": "bingcha/1.1 (mianfeifenxiang) "
+            }
+        }
+    ],
     "hosts": [
         "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
         "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
-        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com","hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
-    "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
-    "smt.1678520.xyz=gcore.jsdelivr.net",
-    "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
-    "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
-  ],
-  "ads": [
-    "static-mozai.4gtv.tv"
-  ],
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "hlsztemgsplive.miguvideo.com=hlsztemgsplive.miguvideo.com.b.cdn.chinamobile.com",
+        "push-rtmp-hs-spe-f5.douyincdn.com=source-fcdn-spe-push.s.bytefcdn.com",
+        "smt.1678520.xyz=gcore.jsdelivr.net",
+        "cache.ott.fifalive.itv.cmvideo.cn=cache.ott.fifalive.itv.cmvideo.cn.e.cdn.chinamobile.com",
+        "studentlive.migucloud.com=base-v4v6-miguvideo.e.cdn.chinamobile.com"
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv"
+    ],
     "rules": [
         {
             "host": "*",
