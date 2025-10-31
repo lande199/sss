@@ -1338,35 +1338,7 @@
             "changeable": 1,
             "filterable": 1
         },
-        {
-            "key": "push_agent_baidu",
-            "name": "୧⍤⃝🚲┃推送 盘【👑】",
-            "type": 3,
-            "api": "csp_Push",
-            "flags": [
-                "pan.baidu"
-            ],
-            "jar": "./jar/local.jar",
-            "sideLoader": true,
-            "changeable": 0,
-            "timeout": 30
-        },
-        {
-            "key": "push_agent_xs",
-            "name": "୧⍤⃝🚲┃推送【☢️】",
-            "type": 3,
-            "api": "csp_Push",
-            "flags": [
-                "pan.quark",
-                "drive.uc"
-            ],
-            "jar": "./jar/spider.jar",
-            "sideLoader": true,
-            "searchable": 0,
-            "filterable": 0,
-            "changeable": 0
-        },
-        {
+{
             "key": "push_agent",
             "name": "୧⍤⃝🛴┃推送 盘【☣️】",
             "type": 3,
@@ -1374,6 +1346,23 @@
             "changeable": 0,
             "timeout": 30,
             "ext": "./lib/tokenm.json"
+        },
+        {
+            "key": "push_agent_baidu",
+            "name": "୧⍤⃝🚲┃推送 盘【👑】",
+            "type": 3,
+            "api": "csp_Push",
+            "flags": [
+                "pan.baidu"
+                , "123684.c"
+                , "123592.c"
+                , "123912.c"
+                , "123865.c"
+                , "123pan.c"
+            ],
+            "jar": "./jar/local.jar",
+            "changeable": 0,
+            "timeout": 30
         }
     ],
     "lives": [
